@@ -3,7 +3,7 @@
 echo "Running static analysis..."
 
 # Validate Kotlin code with detekt and KtLint before committing
-./gradlew ktlintFormat detekt
+./gradlew ktlint detekt
 
 status=$?
 
